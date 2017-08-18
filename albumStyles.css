@@ -1,26 +1,12 @@
-<link href="albumStyles.css" 
-rel="stylesheet" 
-type="text/css" />
-
-@import url("C:\Users\morte\Desktop\Projects\LAB - Album Page\LAB-AlbumPage\albumStyles.css")
-
-<p style=color:red;font-weight:bold;>
-text
-</p>
-
-
 <style>
-a {
-    text-decoration: none;
-}
-a: hover {
-    text decoration: underline;
-}
 .warning {
-    font-weight:bold;
-    color: red;
+    font-family: "Akzidenz Grotesk";
+    color: Black;
 }
-div.warning {
-    font-style: italic;
+#test {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
 }
-</style>
+  </style>
