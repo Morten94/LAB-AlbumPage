@@ -2,29 +2,16 @@
 <html>
     <head>
         <title>LAB - Album Page V1</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <!-- Optional Bootstrap theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
     </head>
-    <style>
-        a {
-            text-decoration: none;
-        }
-            a:hover {
-  text-decoration: underline; 
-  background-color: gold;
-}
-table {
-    font-style: italic;
-}
-    td {
-        background-color: gold;
-        text-align: center;
-    }
-        </style>
     <link href="albumStyles.css" 
     rel="stylesheet" 
     type="text/css" />
     <body>
         <div id="test">
-            <center><img src="https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"/>
+            <center><img class="img-circle" src="https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"/>
             </center>
         </div>
         <div>
@@ -36,12 +23,12 @@ table {
         <h3 class="warning"><center> Band Members and Producers</center></h3>
         </div>
         <ul>
-            <li><p style="color:black;font-style:italic;"> Producer - Michael Jackson</li>
-            <li><p style="color:black;font-style:italic"> Producer - Quincy Jones</li>
+            <li><p> Producer - Michael Jackson</li>
+            <li><p> Producer - Quincy Jones</li>
         </ul>
         </div>
         <div>
-            <table border="1" width="100%">
+            <table class="responsive" border="1" width="100%">
                 <caption><strong>Tracks</strong></caption>
                 <tr bgcolor="grey">
                     <th>Track #</th>
@@ -77,5 +64,6 @@ table {
                 <td>Billie Jean</td>
                 <td>4:54</td>
             </tr>
-        </body>
+            <script src="js/bootstrap.js"></script>
+             </body>
 </html>

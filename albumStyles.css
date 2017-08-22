@@ -1,4 +1,27 @@
-<style>
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .img-rounded {
+    border-radius: 6px;
+  }
+  .img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
 .warning {
     font-family: "Akzidenz Grotesk";
     color: Black;
@@ -9,4 +32,22 @@
     background-attachment: fixed;
     background-position: center;
 }
-  </style>
+a {
+    text-decoration: none;
+}
+    a:hover {
+text-decoration: underline; 
+background-color: gold;
+}
+table {
+font-style: italic;
+}
+td {
+text-align: center;
+}
+li {
+    font-style: italic;
+    color: black;
+}
+tr:nth-child(even) {background: gold}
+tr:nth-child(odd) {background: black}
